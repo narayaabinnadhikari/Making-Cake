@@ -1,0 +1,196 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(10, 10, 10);
+  font-weight: lighter;
+}
+body{
+    margin: 1px 10px;
+}
+.constantheader {
+  position: fixed;
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+  background-color: rgb(184, 236, 232);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.button{
+    
+    font-size: 25px;
+    border-radius: 30px;
+    padding:10px 30px;
+    
+
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+
+.menu {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+}
+.authorcake {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgb(247, 218, 218);
+}
+.intro {
+  width: 33%;
+  justify-content: bottom;
+}
+.hardimpage{
+    margin-top: 20px;
+}
+
+#price {
+  position: bottom;
+  bottom: 20px;
+}
+.narayan {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.narayan div{
+    width: 45%;
+}
+.narayan h3{
+    font-size: 30px;
+    text-align: center;
+}
+.catalog-container {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.catalog-container h2 {
+    text-align: center;
+    margin:20px;
+    font-size: 30px;
+
+}
+.catalog {  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.catalog div{
+    width:20%;
+    background-color: white;
+    padding: 15px;
+}
+.calatalog-img{
+    width: 100%;
+    height: 200px;
+    background-size: cover  ;
+    /* height: ; */
+}
+.howwework{
+    margin-top: 10px;
+    background-color: rgb(244, 245, 201);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.confirmation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(245, 245, 245);
+    
+
+}
+.confirmation h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.confirmation h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Delivery {
+    background-color: whitesmoke;
+    margin: 10px 10px;
+    padding: 10px;
+
+}
+.factsandquestions h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.factsandquestions p {
+    font-size: 16px;
+    font-weight: none;
+}
+
+.factsandquestions {
+    text-align: center;
+}
+#bestchoice{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+    background-color:  rgb(228, 241, 202) ;
+    padding-bottom: 0;
+}
+.bestchoice{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: bold;
+}
+.whatpeoplesay{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(228, 241, 202);
+    padding: 10px;
+    
+}
+.whatpeoplesay div{
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+}
+.whatpeoplesay h3{
+    font-size: 2opx;
+    font-weight: bold;
+}
+.whatpeoplesay img{
+    background-position: 50%;
+    padding : 0;
+    border-radius: 50%;  
+}
+.placeholder{
+    display: flex;
+    flex-direction: column;
+}
+.makeorder{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer{
+    font-size: 1.2rem;
+    width: 100%;
+    background-color: rgb(65, 63, 63);
+    text-align: center;
+    padding:20px 30px;
+    margin:10px 20px;
+}
